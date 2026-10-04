@@ -49,6 +49,7 @@
     background: transparent;
     padding: 14px 10px;
     font-size: 16px;
+    min-width: 0;
 }
 
 .row button {
@@ -86,6 +87,7 @@ ul li {
     cursor: pointer;
     position: relative;
     min-height: 56px;
+    overflow-wrap: anywhere;
 }
 
 ul li::before {
